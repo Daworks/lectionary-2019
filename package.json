@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "cssnano": "^4.1.7"
+    "cssnano": "^4.1.7",
+    "sass": "^1.14.3"
   },
   "dependencies": {
     "feather-icons": "^4.7.3"
