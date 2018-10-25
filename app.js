@@ -1,4 +1,3 @@
-import 'babel-polyfill';
 import './app.scss';
 
 window.feather = require( 'feather-icons' );
