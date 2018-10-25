@@ -2,16 +2,20 @@ body {
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
+	background: #AA076B;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #lectionary {
 	border:4px solid #eee;
 	padding:1em;
 	border-radius:20px;
-	margin:0 auto 2em;
+	margin:2em auto;
 	width: 100%;
 	max-width:1024px;
 	color: #252a37;
+	background-color:white;
 	font-family:'Noto Sans CJK KR', 'Noto Sans KR', sans-serif;
 	font-size:16px;
 	font-weight:300;
