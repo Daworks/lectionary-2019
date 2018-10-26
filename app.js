@@ -4,7 +4,7 @@ window.feather = require( 'feather-icons' );
 
 window.goMonth = function ( index ) {
 	let tgs = document.querySelectorAll( '.month' );
-	tgs[ index ].scrollIntoView();
+	tgs[ index ].parentNode.scrollIntoView();
 }
 
 window.smoothscroll = function () {
