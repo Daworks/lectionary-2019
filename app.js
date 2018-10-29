@@ -27,6 +27,8 @@ document.addEventListener( "DOMContentLoaded", function ( event ) {
 			item.classList.add('bg-purple');
 		} else if ( item.innerText.match(/적색/) ) {
 			item.classList.add('bg-red');
+		} else if ( item.innerText.match(/흑색/) ) {
+			item.classList.add('bg-black');
 		}
 	})
 } );
